@@ -1,0 +1,18 @@
+body {
+  background-color: #535353f3;
+}
+
+a {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #45f535;
+  transition: 0.2s linear;
+}
