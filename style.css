@@ -3,7 +3,6 @@ body {
   background-image: linear-gradient(to top, #595d5f 100%, #4b4f52 100%);
   background-size : cover;
   background-repeat : no-repeat;
-  height: 100vh;
   font-family: "Roboto" sans-serif;
 }
 
