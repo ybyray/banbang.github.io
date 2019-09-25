@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   background-image: linear-gradient(to top, #595d5f 100%, #4b4f52 100%);
   background-size : cover;
   background-repeat : no-repeat;
