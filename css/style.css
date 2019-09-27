@@ -11,6 +11,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .header__title {
@@ -22,4 +23,11 @@ body {
 .header__subtitle {
   font-size: 24px;
   font-weight: 500;
+}
+
+.header__arrow img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 30px;
 }
