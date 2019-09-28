@@ -5,7 +5,7 @@ body {
 
 .header {
   background: url(/img/headerbg.jpg) no-repeat center / cover;
-  height: 100vh;
+  height: 630px;
   color: #ffffff;
   display: flex;
   justify-content: center;
