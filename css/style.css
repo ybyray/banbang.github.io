@@ -49,6 +49,7 @@ body {
 .row {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 .col-4 {
@@ -76,4 +77,28 @@ body {
 
 img {
   display: inline-block;
+}
+
+.footer {
+  text-align: center;
+  background-color: #441a66;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer__title {
+  font-size: 24px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.footer__item {
+  margin: 0 auto;
+}
+
+.footer__item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
