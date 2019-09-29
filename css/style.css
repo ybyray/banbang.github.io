@@ -4,8 +4,7 @@ body {
 }
 
 .header {
-  background: url(/img/headerbg.jpg) no-repeat center center / cover;
-  width: 100%;
+  background: url(/img/headerbg.jpg) no-repeat center / cover;
   z-index: -2;
   height: 100vh;
   color: #ffffff;
