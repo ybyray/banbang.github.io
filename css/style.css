@@ -1,6 +1,7 @@
 body {
   font-family: 'Comfortaa', cursive;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 .header {
@@ -49,12 +50,13 @@ body {
 .row {
   display: flex;
   justify-content: space-between;
+
   padding-bottom: 50px;
 }
 
 .col-4 {
   width: 360px;
-  margin-left: 30px;
+  padding-left: 30px;
 }
 
 .col-4__img {
@@ -120,8 +122,13 @@ img {
     width: 100%;
     margin: 0;
     margin-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
   }
 }
